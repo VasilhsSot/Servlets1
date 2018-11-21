@@ -4,6 +4,7 @@
     Author     : bill_
 --%>
 
+<%@page import="java.util.Date"%>
 <%@page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -22,8 +23,9 @@
                 <td><%=request.getAttribute("k")%></td>
             </tr>
             <tr>
-                <td>Δεύτερος αριθμός</td>
-                <td><%=request.getAttribute("k")%></td>
+                <td>Date</td>
+                <td><%Date d= new Date();
+                    System.out.println(d); %></td>
             </tr>
             <tr>
                 <td>Αποτέλεσμα</td>
