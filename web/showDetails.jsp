@@ -13,10 +13,10 @@
     </head>
     <body>
         <table border="1">
-            <tr>
+            <%--<tr>
                 <th>Επικεφαλίδα</th>
                 <th>Τιμή</th>
-            </tr>
+            </tr>--%>
             <tr>
                 <td>Πρώτος αριθμός</td>
                 <td><%=request.getAttribute("k")%></td>
