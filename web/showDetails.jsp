@@ -24,8 +24,7 @@
             </tr>
             <tr>
                 <td>Date</td>
-                <td><%Date d= new Date();
-                    System.out.println(d); %></td>
+                <td><%= new Date() %></td>
             </tr>
             <tr>
                 <td>Αποτέλεσμα</td>
